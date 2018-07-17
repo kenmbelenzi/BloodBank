@@ -27,7 +27,7 @@ if (isset( $_POST)) {
         echo "user";
 
     }
-    else{
+    elseif($count> 0){
         $query = "SELECT * FROM donor WHERE Username = :Username AND Password = :Password";
         $statement= $db->prepare($query);
         $statement->execute(
@@ -46,5 +46,9 @@ if (isset( $_POST)) {
 
     }
 }
+else{
+        echo "User Does Not Exist";
+}
+
 
 }
