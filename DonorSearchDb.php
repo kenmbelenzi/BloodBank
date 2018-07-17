@@ -27,6 +27,25 @@ if($sql->rowCount()) {
             <?php
         }
         ?>
+    <p>Donation Date:
+        <input type="text" name="DonationDate" value=" <?php
+        $date=date_create();
+        echo date_format($date,'d-m-y');?>">
+        <br>
+    </p>
+    <p>Expiry date
+        <input type="text" name="ExpiryDate" value="<?php
+
+        date_add($date,date_interval_create_from_date_string("42days"));//add number of days
+
+        echo date_format($date,"d-m-y");//et date format of the result
+        ?>">
+        <br>
+    </p>
+
+
+
+    <br>
     </form>
     <?php
 } else {
