@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee5bc706-2b48-4ec7-b023-b4b8f3f115e7" name="Default" comment="PROject">
-      <change beforePath="" afterPath="$PROJECT_DIR$/RequestBlood.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/RequestDb.php" />
       <change beforePath="$USER_HOME$/Desktop/Artproject/.idea/workspace.xml" afterPath="$USER_HOME$/Desktop/Artproject/.idea/workspace.xml" />
       <change beforePath="$USER_HOME$/Desktop/Artproject/MyAccount.php" afterPath="$USER_HOME$/Desktop/Artproject/MyAccount.php" />
       <change beforePath="$USER_HOME$/Desktop/Artproject/MyBookings.php" afterPath="$USER_HOME$/Desktop/Artproject/MyBookings.php" />
@@ -14,10 +12,7 @@
       <change beforePath="$USER_HOME$/Desktop/Artproject/shop.php" afterPath="$USER_HOME$/Desktop/Artproject/shop.php" />
       <change beforePath="$USER_HOME$/Desktop/Artproject/signup.php" afterPath="$USER_HOME$/Desktop/Artproject/signup.php" />
       <change beforePath="$USER_HOME$/Desktop/Artproject/signupvalidation.php" afterPath="$USER_HOME$/Desktop/Artproject/signupvalidation.php" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/logindb.php" afterPath="$PROJECT_DIR$/logindb.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -307,7 +302,7 @@
       <workItem from="1531420869555" duration="5534000" />
       <workItem from="1531555626264" duration="8552000" />
       <workItem from="1531569717161" duration="12705000" />
-      <workItem from="1531823087235" duration="424000" />
+      <workItem from="1531823087235" duration="464000" />
     </task>
     <task id="LOCAL-00001" summary="PROject">
       <created>1531749098712</created>
@@ -316,11 +311,18 @@
       <option name="project" value="LOCAL" />
       <updated>1531749098712</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="PROject">
+      <created>1531823527254</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1531823527254</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41942000" />
+    <option name="totallyTimeSpent" value="41982000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1098" extended-state="6" />
