@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee5bc706-2b48-4ec7-b023-b4b8f3f115e7" name="Default" comment="PROject">
-      <change beforePath="" afterPath="$PROJECT_DIR$/Datedb.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Stock.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/date.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Donate.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Index.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/css/main.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/database/DailyReportDb.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/database/logindb.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/trial.html" />
       <change beforePath="$USER_HOME$/Desktop/Artproject/.idea/workspace.xml" afterPath="$USER_HOME$/Desktop/Artproject/.idea/workspace.xml" />
       <change beforePath="$USER_HOME$/Desktop/Artproject/MyAccount.php" afterPath="$USER_HOME$/Desktop/Artproject/MyAccount.php" />
       <change beforePath="$USER_HOME$/Desktop/Artproject/MyBookings.php" afterPath="$USER_HOME$/Desktop/Artproject/MyBookings.php" />
@@ -17,11 +20,23 @@
       <change beforePath="$USER_HOME$/Desktop/Artproject/signupvalidation.php" afterPath="$USER_HOME$/Desktop/Artproject/signupvalidation.php" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/6e95f732-56a4-4a2e-814f-6da14ff81253.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/6e95f732-56a4-4a2e-814f-6da14ff81253.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/DonationDb.php" afterPath="$PROJECT_DIR$/DonationDb.php" />
-      <change beforePath="$PROJECT_DIR$/DonorSearchDb.php" afterPath="$PROJECT_DIR$/DonorSearchDb.php" />
-      <change beforePath="$PROJECT_DIR$/ExistingDonorDonation.php" afterPath="$PROJECT_DIR$/ExistingDonorDonation.php" />
+      <change beforePath="$PROJECT_DIR$/Datedb.php" afterPath="$PROJECT_DIR$/database/Datedb.php" />
+      <change beforePath="$PROJECT_DIR$/Db.php" afterPath="$PROJECT_DIR$/database/Db.php" />
+      <change beforePath="$PROJECT_DIR$/Donate.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DonationDb.php" afterPath="$PROJECT_DIR$/database/DonationDb.php" />
+      <change beforePath="$PROJECT_DIR$/DonorDb.php" afterPath="$PROJECT_DIR$/database/DonorDb.php" />
+      <change beforePath="$PROJECT_DIR$/DonorRegistration.php" afterPath="$PROJECT_DIR$/DonorRegistration.html" />
+      <change beforePath="$PROJECT_DIR$/DonorSearch.php" afterPath="$PROJECT_DIR$/DonorSearch.php" />
+      <change beforePath="$PROJECT_DIR$/DonorSearchDb.php" afterPath="$PROJECT_DIR$/database/DonorSearchDb.php" />
+      <change beforePath="$PROJECT_DIR$/Index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Login.php" afterPath="$PROJECT_DIR$/Login.php" />
+      <change beforePath="$PROJECT_DIR$/Registration.php" afterPath="$PROJECT_DIR$/Registration.php" />
+      <change beforePath="$PROJECT_DIR$/Report.php" afterPath="$PROJECT_DIR$/Report.php" />
       <change beforePath="$PROJECT_DIR$/RequestBlood.php" afterPath="$PROJECT_DIR$/RequestBlood.php" />
-      <change beforePath="$PROJECT_DIR$/RequestDb.php" afterPath="$PROJECT_DIR$/RequestDb.php" />
+      <change beforePath="$PROJECT_DIR$/RequestDb.php" afterPath="$PROJECT_DIR$/database/RequestDb.php" />
+      <change beforePath="$PROJECT_DIR$/Stock.php" afterPath="$PROJECT_DIR$/Stock.php" />
+      <change beforePath="$PROJECT_DIR$/date.php" afterPath="$PROJECT_DIR$/date.php" />
+      <change beforePath="$PROJECT_DIR$/logindb.php" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -60,80 +75,56 @@
         <item name="@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="bloodbank: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="donation: table" type="98d5ac3d:MysqlImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="bloodbank: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="recepient: table" type="98d5ac3d:MysqlImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="bloodbank: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="stock: table" type="98d5ac3d:MysqlImplModel$Table" />
+        <item name="donors: table" type="98d5ac3d:MysqlImplModel$Table" />
       </path>
     </expand>
     <select />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="DonationDb.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DonationDb.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="12" column="101" lean-forward="false" selection-start-line="12" selection-start-column="101" selection-end-line="12" selection-end-column="101" />
-              <folding>
-                <marker date="1531846552599" expanded="true" signature="270:458" ph="insert into donation... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="DonorSearch.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DonorSearch.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+            <state relative-caret-position="0">
+              <caret line="22" column="7" lean-forward="false" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Datedb.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Datedb.php">
+      <file leaf-file-name="Donate.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Donate.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+            <state relative-caret-position="567">
+              <caret line="27" column="17" lean-forward="false" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DonationDb.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/database/DonationDb.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="441">
+              <caret line="34" column="1" lean-forward="false" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
               <folding>
-                <marker date="1531843890091" expanded="true" signature="69:121" ph="Select * fro... donation" />
-                <marker date="1531843890091" expanded="true" signature="69:137" ph="Select Pints... donation" />
-                <marker date="1531843890091" expanded="true" signature="282:351" ph="Update donation... " />
+                <marker date="1532105082317" expanded="true" signature="322:510" ph="insert into donation... " />
+                <marker date="1532105082317" expanded="true" signature="906:938" ph="SELECT Quant... stock" />
+                <marker date="1532105082317" expanded="true" signature="906:963" ph="SELECT Quant... stock" />
+                <marker date="1532105082317" expanded="true" signature="1224:1290" ph="Update stock... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ExistingDonorDonation.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ExistingDonorDonation.php">
+      <file leaf-file-name="DonorSearchDb.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/DonorSearchDb.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="665">
-              <caret line="61" column="4" lean-forward="true" selection-start-line="43" selection-start-column="8" selection-end-line="61" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DonorDb.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DonorDb.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="15" column="31" lean-forward="false" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+            <state relative-caret-position="518">
+              <caret line="44" column="4" lean-forward="true" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="4" />
               <folding>
-                <marker date="1531573619462" expanded="true" signature="278:471" ph="insert into donors... " />
+                <marker date="1532103675381" expanded="true" signature="77:141" ph="SELECT id,Fi... WHERE" />
+                <marker date="1532103675381" expanded="true" signature="77:143" ph="SELECT id,Fi... donors" />
               </folding>
             </state>
           </provider>
@@ -148,44 +139,46 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Stock.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Stock.php">
+      <file leaf-file-name="donors" pinned="false" current-in-tab="false">
+        <entry file="das://table:/8d4ba246/6e95f732-56a4-4a2e-814f-6da14ff81253/bloodbank.donors">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Report.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Report.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="5" column="39" lean-forward="false" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+            <state relative-caret-position="273">
+              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding>
-                <marker date="1531844112150" expanded="true" signature="69:126" ph="SELECT SUM(P... donation" />
-                <marker date="1531844112150" expanded="true" signature="69:138" ph="SELECT SUM(P... donation" />
-                <marker date="1531844112150" expanded="true" signature="206:275" ph="SELECT SUM(P... donation" />
-                <marker date="1531844112150" expanded="true" signature="206:280" ph="SELECT SUM(P... donation" />
-                <marker date="1531844112150" expanded="true" signature="206:294" ph="SELECT SUM(P... donation" />
-                <marker date="1531844112150" expanded="true" signature="738:799" ph="Update stock... " />
-                <marker date="1531844112150" expanded="true" signature="744:763" ph="insert into stock... " />
-                <marker date="1531844112150" expanded="true" signature="1033:1090" ph="SELECT Quant... stock" />
+                <marker date="1531848208827" expanded="true" signature="45:85" ph="SELECT SUM(P... donation" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Donate.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Donate.html">
+      <file leaf-file-name="DailyReportDb.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/DailyReportDb.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+            <state relative-caret-position="609">
+              <caret line="29" column="27" lean-forward="true" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
+              <folding>
+                <marker date="1532094940089" expanded="true" signature="79:153" ph="SELECT SUM(P... donation" />
+                <marker date="1532094940089" expanded="true" signature="79:178" ph="SELECT SUM(P... donation" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="588">
+              <caret line="28" column="7" lean-forward="true" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DonorSearchDb.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DonorSearchDb.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-              <folding>
-                <marker date="1531846982825" expanded="true" signature="77:141" ph="SELECT id,Fi... WHERE" />
-                <marker date="1531846982825" expanded="true" signature="77:143" ph="SELECT id,Fi... donors" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -195,6 +188,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -211,26 +205,40 @@
         <option value="$USER_HOME$/Desktop/itranfuzz.info-master/application/views/main.php" />
         <option value="$USER_HOME$/Desktop/itranfuzz.info-master/application/views/welcome.php" />
         <option value="$USER_HOME$/Desktop/itranfuzz.info-master/application/views/mobile/main_index.php" />
-        <option value="$PROJECT_DIR$/Login.php" />
         <option value="$PROJECT_DIR$/logindb.php" />
-        <option value="$PROJECT_DIR$/Registration.php" />
         <option value="$PROJECT_DIR$/Donation.php" />
         <option value="$PROJECT_DIR$/DonorRegistration.php" />
-        <option value="$PROJECT_DIR$/Index.html" />
         <option value="$PROJECT_DIR$/Db.php" />
-        <option value="$PROJECT_DIR$/DonorSearch.php" />
         <option value="$PROJECT_DIR$/DonorDb.php" />
-        <option value="$PROJECT_DIR$/Donate.html" />
-        <option value="$PROJECT_DIR$/Report.php" />
         <option value="$PROJECT_DIR$/logindb.php" />
         <option value="$PROJECT_DIR$/RequestBlood.php" />
         <option value="$PROJECT_DIR$/RequestDb.php" />
         <option value="$PROJECT_DIR$/date.php" />
         <option value="$PROJECT_DIR$/Datedb.php" />
-        <option value="$PROJECT_DIR$/Stock.php" />
         <option value="$PROJECT_DIR$/ExistingDonorDonation.php" />
         <option value="$PROJECT_DIR$/DonationDb.php" />
         <option value="$PROJECT_DIR$/DonorSearchDb.php" />
+        <option value="$PROJECT_DIR$/Report.php" />
+        <option value="$PROJECT_DIR$/DailyReportDb.php" />
+        <option value="$PROJECT_DIR$/Donate.html" />
+        <option value="$PROJECT_DIR$/database/Datedb.php" />
+        <option value="$PROJECT_DIR$/Index.html" />
+        <option value="$PROJECT_DIR$/trial.html" />
+        <option value="$PROJECT_DIR$/Donate.php" />
+        <option value="$PROJECT_DIR$/Index.php" />
+        <option value="$PROJECT_DIR$/database/trial.html" />
+        <option value="$PROJECT_DIR$/DonorSearch.php" />
+        <option value="$PROJECT_DIR$/jhj.html" />
+        <option value="$PROJECT_DIR$/database/logindb.php" />
+        <option value="$USER_HOME$/Desktop/spectre-sign-up-form/index.html" />
+        <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/Registration.php" />
+        <option value="$PROJECT_DIR$/Login.php" />
+        <option value="$PROJECT_DIR$/database/DailyReportDb.php" />
+        <option value="$PROJECT_DIR$/Stock.php" />
+        <option value="$PROJECT_DIR$/add blood.php" />
+        <option value="$PROJECT_DIR$/database/DonorSearchDb.php" />
+        <option value="$PROJECT_DIR$/database/DonationDb.php" />
       </list>
     </option>
   </component>
@@ -242,8 +250,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="665" />
-    <option name="y" value="-3" />
+    <option name="x" value="952" />
     <option name="width" value="976" />
     <option name="height" value="1088" />
   </component>
@@ -279,6 +286,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -286,24 +294,40 @@
               <item name="BloodBank" type="b2602c69:ProjectViewProjectNode" />
               <item name="BloodBank" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="BloodBank" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BloodBank" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="BloodBank" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BloodBank" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="database" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="database.sql.templating" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/SQL Dialects" value="MySQL" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ken\PhpstormProjects\BloodBank\database" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -317,26 +341,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.Donate.html">
-    <configuration name="Donate.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/BloodBank/Donate.html" />
-    <configuration name="DonorSearchDb.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/BloodBank/DonorSearchDb.php" />
-    <configuration name="DonorSearch.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/BloodBank/DonorSearch.php" />
-    <configuration name="ExistingDonorDonation.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/BloodBank/ExistingDonorDonation.php" />
-    <configuration name="Stock.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/BloodBank/Stock.php" />
+  <component name="RunManager" selected="JavaScript Debug.Index.php">
+    <configuration name="DailyReportDb.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/BloodBank/database/DailyReportDb.php" />
+    <configuration name="Donate.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/BloodBank/Donate.php" />
+    <configuration name="DonorSearchDb.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/BloodBank/database/DonorSearchDb.php" />
+    <configuration name="Index.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/BloodBank/Index.php" />
+    <configuration name="add blood.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/BloodBank/add blood.php" />
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.Stock.php" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.ExistingDonorDonation.php" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.Index.php" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.add blood.php" />
       <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.DonorSearchDb.php" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.DonorSearch.php" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.Donate.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.Donate.php" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.DailyReportDb.php" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.Donate.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.DonorSearch.php" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.DonorSearchDb.php" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.ExistingDonorDonation.php" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.Stock.php" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.Index.php" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.DailyReportDb.php" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.Donate.php" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.DonorSearchDb.php" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.add blood.php" />
       </list>
     </recent_temporary>
   </component>
@@ -360,7 +384,11 @@
       <workItem from="1531555626264" duration="8552000" />
       <workItem from="1531569717161" duration="12705000" />
       <workItem from="1531823087235" duration="5522000" />
-      <workItem from="1531830068254" duration="10268000" />
+      <workItem from="1531830068254" duration="13510000" />
+      <workItem from="1531908470064" duration="4255000" />
+      <workItem from="1532001699581" duration="9591000" />
+      <workItem from="1532086535747" duration="13006000" />
+      <workItem from="1532103867479" duration="1919000" />
     </task>
     <task id="LOCAL-00001" summary="PROject">
       <created>1531749098712</created>
@@ -376,35 +404,42 @@
       <option name="project" value="LOCAL" />
       <updated>1531823527254</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="PROject">
+      <created>1531847114911</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1531847114911</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57308000" />
+    <option name="totallyTimeSpent" value="89321000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1098" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.184375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14791666" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.071354166" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22291666" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="SQL Generator" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -426,23 +461,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Desktop/itranfuzz.info-master/application/controllers/index.html" />
-    <entry file="file://$USER_HOME$/Desktop/itranfuzz.info-master/application/controllers/center_controller.php" />
-    <entry file="file://$USER_HOME$/Desktop/itranfuzz.info-master/application/controllers/donor_controller.php" />
-    <entry file="file://$USER_HOME$/Desktop/Project-master/donor.html" />
-    <entry file="file://$USER_HOME$/Desktop/Project-master/bloodbank.html" />
-    <entry file="file://$USER_HOME$/Desktop/Project-master/index.html" />
-    <entry file="file://$USER_HOME$/Desktop/Project-master/register.html" />
-    <entry file="file://$USER_HOME$/Desktop/itranfuzz.info-master/index.php" />
-    <entry file="file://$USER_HOME$/Desktop/itranfuzz.info-master/.project" />
-    <entry file="file://$USER_HOME$/Desktop/itranfuzz.info-master/.htaccess" />
-    <entry file="file://$USER_HOME$/Downloads/CodeIgniter-3.1.7/application/controllers/Welcome.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Downloads/CodeIgniter-3.1.7/application/controllers/Welcome.php" />
     <entry file="file://$USER_HOME$/Desktop/itranfuzz.info-master/application/views/welcome_message.php" />
     <entry file="file://$USER_HOME$/Desktop/itranfuzz.info-master/application/views/welcome.php" />
     <entry file="file://$USER_HOME$/Desktop/itranfuzz.info-master/application/views/mobile/main_index.php" />
@@ -486,10 +505,20 @@
       </provider>
     </entry>
     <entry file="das://index:/1b395b43/6e95f732-56a4-4a2e-814f-6da14ff81253/bloodbank.donation.donation_donors_id_fk" />
-    <entry file="file://$PROJECT_DIR$/Index.html">
+    <entry file="das://table:/1b395b43/6e95f732-56a4-4a2e-814f-6da14ff81253/bloodbank.donors" />
+    <entry file="das://table:/1b395b43/6e95f732-56a4-4a2e-814f-6da14ff81253/bloodbank.user" />
+    <entry file="das://table:/1b395b43/6e95f732-56a4-4a2e-814f-6da14ff81253/bloodbank.donation" />
+    <entry file="das://table:/8d4ba246/6e95f732-56a4-4a2e-814f-6da14ff81253/bloodbank.recepient">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://src:table:/8d4ba246/6e95f732-56a4-4a2e-814f-6da14ff81253/bloodbank.stock">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+        <state relative-caret-position="126">
+          <caret line="6" column="2" lean-forward="false" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -499,19 +528,20 @@
           <ID>DATABASE</ID>
           <OriginalElement>6e95f732-56a4-4a2e-814f-6da14ff81253.SCHEMA:bloodbank</OriginalElement>
           <nodes>
-            <node x="502.02061855670104" y="337.9546391752578">6e95f732-56a4-4a2e-814f-6da14ff81253.TABLE:bloodbank.recepient</node>
-            <node x="513.2536082474228" y="58.11958762886598">6e95f732-56a4-4a2e-814f-6da14ff81253.TABLE:bloodbank.user</node>
+            <node x="276.0" y="0.0">6e95f732-56a4-4a2e-814f-6da14ff81253.TABLE:bloodbank.recepient</node>
+            <node x="552.0" y="0.0">6e95f732-56a4-4a2e-814f-6da14ff81253.TABLE:bloodbank.stock</node>
             <node x="6.5" y="303.0">6e95f732-56a4-4a2e-814f-6da14ff81253.TABLE:bloodbank.donation</node>
             <node x="0.0" y="0.0">6e95f732-56a4-4a2e-814f-6da14ff81253.TABLE:bloodbank.donors</node>
+            <node x="0.0" y="628.0">6e95f732-56a4-4a2e-814f-6da14ff81253.TABLE:bloodbank.user</node>
           </nodes>
           <notes />
           <edges>
             <edge source="6e95f732-56a4-4a2e-814f-6da14ff81253.TABLE:bloodbank.donation" target="6e95f732-56a4-4a2e-814f-6da14ff81253.TABLE:bloodbank.donors">
-              <point x="0.0" y="-126.5" />
+              <point x="0.0" y="-140.0" />
               <point x="0.0" y="126.5" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="0.9291187739463601" x="-186.0" y="248.0" />
+          <settings layout="Hierarchic Group" zoom="0.9355716878402905" x="136.0" y="225.0" />
           <SelectedNodes>
             <node>6e95f732-56a4-4a2e-814f-6da14ff81253.TABLE:bloodbank.user</node>
           </SelectedNodes>
@@ -523,102 +553,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Login.php">
+    <entry file="file://$USER_HOME$/Desktop/bloodbank_donation.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/1b395b43/6e95f732-56a4-4a2e-814f-6da14ff81253/bloodbank.donors" />
-    <entry file="das://table:/1b395b43/6e95f732-56a4-4a2e-814f-6da14ff81253/bloodbank.user" />
-    <entry file="das://table:/1b395b43/6e95f732-56a4-4a2e-814f-6da14ff81253/bloodbank.donation" />
-    <entry file="das://table:/8d4ba246/6e95f732-56a4-4a2e-814f-6da14ff81253/bloodbank.recepient">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/8d4ba246/6e95f732-56a4-4a2e-814f-6da14ff81253/bloodbank.donors">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Report.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <marker date="1531576939993" expanded="true" signature="46:85" ph="SELECT SUM(P... donation" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RequestBlood.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Db.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <marker date="1531561821773" expanded="true" signature="279:348" ph="INSERT INTO user... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://src:table:/8d4ba246/6e95f732-56a4-4a2e-814f-6da14ff81253/bloodbank.stock">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="2" lean-forward="false" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RequestDb.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="108" lean-forward="false" selection-start-line="14" selection-start-column="108" selection-end-line="14" selection-end-column="108" />
-          <folding>
-            <marker date="1531834677099" expanded="true" signature="142:193" ph="SELECT * FRO... donors" />
-            <marker date="1531834677099" expanded="true" signature="375:461" ph="insert into recepient... " />
-            <marker date="1531834677099" expanded="true" signature="375:467" ph="insert into recepient... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Registration.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DonorRegistration.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="21" column="7" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logindb.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="18" lean-forward="false" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-          <folding>
-            <marker date="1531749965126" expanded="true" signature="262:332" ph="SELECT * FRO... user" />
-            <marker date="1531749965126" expanded="true" signature="702:773" ph="SELECT * FRO... donor" />
-          </folding>
+        <state relative-caret-position="21">
+          <caret line="1" column="50" lean-forward="false" selection-start-line="1" selection-start-column="50" selection-end-line="1" selection-end-column="50" />
         </state>
       </provider>
     </entry>
@@ -626,34 +564,176 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="das://table:/8d4ba246/6e95f732-56a4-4a2e-814f-6da14ff81253/bloodbank.stock">
+    <entry file="file://$PROJECT_DIR$/ExistingDonorDonation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Artproject/MyBookings.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1260">
+          <caret line="19" column="61" lean-forward="true" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/RequestDb.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="108" lean-forward="false" selection-start-line="14" selection-start-column="108" selection-end-line="14" selection-end-column="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jhj.html" />
+    <entry file="file://$PROJECT_DIR$/trial.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="45" lean-forward="false" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/Datedb.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <marker date="1532010940294" expanded="true" signature="68:120" ph="Select * fro... donation" />
+            <marker date="1532010940294" expanded="true" signature="68:136" ph="Select Pints... donation" />
+            <marker date="1532010940294" expanded="true" signature="281:350" ph="Update donation... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/8d4ba246/6e95f732-56a4-4a2e-814f-6da14ff81253/bloodbank.user">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Donate.html">
+    <entry file="file://$USER_HOME$/Desktop/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        <state relative-caret-position="434">
+          <caret line="130" column="0" lean-forward="true" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/spectre-sign-up-form/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1008">
+          <caret line="48" column="8" lean-forward="false" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/DonorDb.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="31" lean-forward="false" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RequestBlood.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DonorRegistration.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="79" lean-forward="false" selection-start-line="15" selection-start-column="79" selection-end-line="15" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/logindb.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Registration.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="29" column="12" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="29" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/Db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="27" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Stock.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="true" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding>
+            <marker date="1532095005679" expanded="true" signature="77:134" ph="SELECT SUM(P... donation" />
+            <marker date="1532095005679" expanded="true" signature="77:146" ph="SELECT SUM(P... donation" />
+            <marker date="1532095005679" expanded="true" signature="214:283" ph="SELECT SUM(P... donation" />
+            <marker date="1532095005679" expanded="true" signature="214:288" ph="SELECT SUM(P... donation" />
+            <marker date="1532095005679" expanded="true" signature="214:302" ph="SELECT SUM(P... donation" />
+            <marker date="1532095005679" expanded="true" signature="746:807" ph="Update stock... " />
+            <marker date="1532095005679" expanded="true" signature="752:771" ph="insert into stock... " />
+            <marker date="1532095005679" expanded="true" signature="1041:1098" ph="SELECT Quant... stock" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/add blood.php" />
+    <entry file="file://$PROJECT_DIR$/Donate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="27" column="17" lean-forward="false" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Datedb.php">
+    <entry file="file://$PROJECT_DIR$/DonorSearch.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        <state relative-caret-position="0">
+          <caret line="22" column="7" lean-forward="false" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Report.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding>
-            <marker date="1531843890091" expanded="true" signature="69:121" ph="Select * fro... donation" />
-            <marker date="1531843890091" expanded="true" signature="69:137" ph="Select Pints... donation" />
-            <marker date="1531843890091" expanded="true" signature="282:351" ph="Update donation... " />
+            <marker date="1531848208827" expanded="true" signature="45:85" ph="SELECT SUM(P... donation" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="28" column="7" lean-forward="true" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -664,66 +744,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ExistingDonorDonation.php">
+    <entry file="file://$PROJECT_DIR$/database/DonorSearchDb.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="61" column="4" lean-forward="true" selection-start-line="43" selection-start-column="8" selection-end-line="61" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DonorSearch.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DonationDb.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="101" lean-forward="false" selection-start-line="12" selection-start-column="101" selection-end-line="12" selection-end-column="101" />
+        <state relative-caret-position="518">
+          <caret line="44" column="4" lean-forward="true" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="4" />
           <folding>
-            <marker date="1531846552599" expanded="true" signature="270:458" ph="insert into donation... " />
+            <marker date="1532103675381" expanded="true" signature="77:141" ph="SELECT id,Fi... WHERE" />
+            <marker date="1532103675381" expanded="true" signature="77:143" ph="SELECT id,Fi... donors" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DonorDb.php">
+    <entry file="das://table:/8d4ba246/6e95f732-56a4-4a2e-814f-6da14ff81253/bloodbank.donors">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/DailyReportDb.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="31" lean-forward="false" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        <state relative-caret-position="609">
+          <caret line="29" column="27" lean-forward="true" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
           <folding>
-            <marker date="1531573619462" expanded="true" signature="278:471" ph="insert into donors... " />
+            <marker date="1532094940089" expanded="true" signature="79:153" ph="SELECT SUM(P... donation" />
+            <marker date="1532094940089" expanded="true" signature="79:178" ph="SELECT SUM(P... donation" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DonorSearchDb.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-          <folding>
-            <marker date="1531846982825" expanded="true" signature="77:141" ph="SELECT id,Fi... WHERE" />
-            <marker date="1531846982825" expanded="true" signature="77:143" ph="SELECT id,Fi... donors" />
-          </folding>
+    <entry file="das://table:/8d4ba246/6e95f732-56a4-4a2e-814f-6da14ff81253/bloodbank.stock">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Stock.php">
+    <entry file="file://$PROJECT_DIR$/database/DonationDb.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="39" lean-forward="false" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+        <state relative-caret-position="441">
+          <caret line="34" column="1" lean-forward="false" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
           <folding>
-            <marker date="1531844112150" expanded="true" signature="69:126" ph="SELECT SUM(P... donation" />
-            <marker date="1531844112150" expanded="true" signature="69:138" ph="SELECT SUM(P... donation" />
-            <marker date="1531844112150" expanded="true" signature="206:275" ph="SELECT SUM(P... donation" />
-            <marker date="1531844112150" expanded="true" signature="206:280" ph="SELECT SUM(P... donation" />
-            <marker date="1531844112150" expanded="true" signature="206:294" ph="SELECT SUM(P... donation" />
-            <marker date="1531844112150" expanded="true" signature="738:799" ph="Update stock... " />
-            <marker date="1531844112150" expanded="true" signature="744:763" ph="insert into stock... " />
-            <marker date="1531844112150" expanded="true" signature="1033:1090" ph="SELECT Quant... stock" />
+            <marker date="1532105082317" expanded="true" signature="322:510" ph="insert into donation... " />
+            <marker date="1532105082317" expanded="true" signature="906:938" ph="SELECT Quant... stock" />
+            <marker date="1532105082317" expanded="true" signature="906:963" ph="SELECT Quant... stock" />
+            <marker date="1532105082317" expanded="true" signature="1224:1290" ph="Update stock... " />
           </folding>
         </state>
       </provider>

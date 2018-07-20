@@ -1,7 +1,8 @@
 
 <?php
-
-include ('Db.php');
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+include('Db.php');
 $form=$_POST;
 $FirstName=$form['FirstName'];
 $LastName=$form['LastName'];
@@ -18,8 +19,33 @@ $result = $query->execute(array(':PintsDonated'=>$PintsDonated,':BloodGroup'=>$B
 if ($result){
     echo "Donation Successfull";
 
+// updating the stock table
+    $form=$_POST;
+
+    $BloodGroup=$form['BloodGroup'];
+
+    $query="SELECT Quantity FROM stock WHERE BloodGroup = :BloodGroup ";
+    $statement= $db->prepare($query);
+    $statement->execute([':BloodGroup' => $BloodGroup]);
+    $count= $statement->rowCount();
+    if ($count){
+
+
+    $row=$statement->fetch(PDO::FETCH_ASSOC);
+    $newStock=$row['Quantity'] + $PintsDonated;
+    $query ="Update stock SET Quantity=:newStock where BloodGroup = :BloodGroup ";
+    $statement= $db->prepare($query);
+
+    $statement->execute([':BloodGroup' => $BloodGroup,':newStock'=>$newStock]);
+    echo 'Update success';
+
+    }else{
+
+        echo "Failed";
+    }
 }else{
     echo"Failed to input Data";
 }
+
 
 

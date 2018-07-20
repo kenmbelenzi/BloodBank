@@ -1,5 +1,6 @@
 <?php
-require ('Db.php');
+require('Db.php');
+
 $form=$_GET;
 $id=$form['id'];
 $sql = $db->prepare("SELECT id,FirstName,LastName,BloodGroup FROM donors WHERE id = :id");
@@ -29,16 +30,16 @@ if($sql->rowCount()) {
         ?>
     <p>Donation Date:
         <input type="text" name="DonationDate" value=" <?php
-        $date=date_create();
-        echo date_format($date,'d-m-y');?>">
+        $date=date_create();//creates todays date
+        echo date_format($date,'y-m-d');?>">//outputs the date in the format D-M-Y
         <br>
     </p>
     <p>Expiry date
         <input type="text" name="ExpiryDate" value="<?php
 
-        date_add($date,date_interval_create_from_date_string("42days"));//add number of days
+        date_add($date,date_interval_create_from_date_string("4days"));//add number of days
 
-        echo date_format($date,"d-m-y");//et date format of the result
+        echo date_format($date,"y-m-d");//Output  date format of the result D-M-Y
         ?>">
         <br>
     </p>

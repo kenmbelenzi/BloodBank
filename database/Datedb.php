@@ -1,5 +1,5 @@
 <?php
-include ('Db.php');
+include('Db.php');
 $form=$_POST;
 $date=$form['Date'];
 $query='Select PintsDonated from donation WHERE DonationDate = :DonationDate';

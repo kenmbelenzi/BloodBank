@@ -976,187 +976,171 @@
       <Charset>utf8mb4</Charset>
       <DefaultForCharset>0</DefaultForCharset>
     </collation>
-    <table id="247" parent="4" name="donation">
+    <table id="247" parent="4" name="blood tests">
       <Engine>InnoDB</Engine>
     </table>
-    <table id="248" parent="4" name="donors">
+    <table id="248" parent="4" name="bloodrequest">
       <Engine>InnoDB</Engine>
     </table>
-    <table id="249" parent="4" name="recepient">
+    <table id="249" parent="4" name="donation">
       <Engine>InnoDB</Engine>
     </table>
-    <table id="250" parent="4" name="stock">
+    <table id="250" parent="4" name="donors">
       <Engine>InnoDB</Engine>
     </table>
-    <table id="251" parent="4" name="user">
+    <table id="251" parent="4" name="recepient">
       <Engine>InnoDB</Engine>
     </table>
-    <column id="252" parent="247" name="DonationId">
+    <table id="252" parent="4" name="stock">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="253" parent="4" name="user">
+      <Engine>InnoDB</Engine>
+    </table>
+    <column id="254" parent="247" name="testid">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="255" parent="247" name="donorid">
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="256" parent="247" name="test result">
+      <Position>3</Position>
+      <DataType>int(11)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="257" parent="247" name="finding">
+      <Position>4</Position>
+      <DataType>varchar(100)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="258" parent="247" name="unq_blood tests_donorid">
+      <ColNames>donorid</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="259" parent="247" name="fk_blood tests_donors">
+      <ColNames>test result</ColNames>
+    </index>
+    <key id="260" parent="247" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>testid</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="261" parent="247" name="unq_blood tests_donorid">
+      <ColNames>donorid</ColNames>
+      <UnderlyingIndexName>unq_blood tests_donorid</UnderlyingIndexName>
+    </key>
+    <foreign-key id="262" parent="247" name="fk_blood tests_donors">
+      <ColNames>test result</ColNames>
+      <RefSchemaName>bloodbank</RefSchemaName>
+      <RefTableName>donors</RefTableName>
+      <RefColNames>elligibilitystatus</RefColNames>
+    </foreign-key>
+    <column id="263" parent="248" name="request id">
       <Position>1</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="253" parent="247" name="PintsDonated">
+    <column id="264" parent="248" name="bloodgroup">
+      <Position>2</Position>
+      <DataType>varchar(3)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="265" parent="248" name="recepient_id">
+      <Position>3</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="266" parent="248" name="pints_required">
+      <Position>4</Position>
+      <DataType>int(11)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="267" parent="248" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>request id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="268" parent="249" name="DonationId">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="269" parent="249" name="PintsDonated">
       <Position>2</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="254" parent="247" name="BloodGroup">
+    <column id="270" parent="249" name="BloodGroup">
       <Position>3</Position>
-      <DataType>varchar(5)|0</DataType>
+      <DataType>varchar(20)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="255" parent="247" name="DonorId">
+    <column id="271" parent="249" name="DonorId">
       <Position>4</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="256" parent="247" name="LastName">
+    <column id="272" parent="249" name="LastName">
       <Position>5</Position>
       <DataType>varchar(20)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="257" parent="247" name="FirstName">
+    <column id="273" parent="249" name="FirstName">
       <Position>6</Position>
       <DataType>varchar(20)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="258" parent="247" name="DonationDate">
+    <column id="274" parent="249" name="DonationDate">
       <Position>7</Position>
       <DataType>date|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="259" parent="247" name="ExpiryDate">
+    <column id="275" parent="249" name="ExpiryDate">
       <Position>8</Position>
       <DataType>date|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="260" parent="247" name="ExpiryStatus">
+    <column id="276" parent="249" name="ExpiryStatus">
       <Position>9</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="261" parent="247" name="donation_donors_id_fk">
+    <index id="277" parent="249" name="donation_donors_id_fk">
       <ColNames>DonorId</ColNames>
     </index>
-    <key id="262" parent="247" name="PRIMARY">
+    <index id="278" parent="249" name="idx_donation_donationdate">
+      <ColNames>DonationDate</ColNames>
+    </index>
+    <key id="279" parent="249" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>DonationId</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="263" parent="247" name="donation_donors_id_fk">
+    <foreign-key id="280" parent="249" name="donation_donors_id_fk">
       <ColNames>DonorId</ColNames>
       <RefSchemaName>bloodbank</RefSchemaName>
       <RefTableName>donors</RefTableName>
       <RefColNames>id</RefColNames>
     </foreign-key>
-    <column id="264" parent="248" name="id">
-      <Position>1</Position>
-      <DataType>int(11)|0</DataType>
-      <NotNull>1</NotNull>
-      <SequenceIdentity>1</SequenceIdentity>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="265" parent="248" name="FirstName">
-      <Position>2</Position>
-      <DataType>varchar(20)|0</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="266" parent="248" name="MiddleName">
-      <Position>3</Position>
-      <DataType>varchar(20)|0</DataType>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="267" parent="248" name="LastName">
-      <Position>4</Position>
-      <DataType>varchar(20)|0</DataType>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="268" parent="248" name="PhoneNumber">
-      <Position>5</Position>
-      <DataType>int(11)|0</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="269" parent="248" name="Email">
-      <Position>6</Position>
-      <DataType>varchar(20)|0</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="270" parent="248" name="BloodGroup">
-      <Position>7</Position>
-      <DataType>varchar(5)|0</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="271" parent="248" name="RegistrationDate">
-      <Position>8</Position>
-      <DataType>date|0</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <key id="272" parent="248" name="PRIMARY">
-      <NameSurrogate>1</NameSurrogate>
-      <ColNames>id</ColNames>
-      <Primary>1</Primary>
-    </key>
-    <column id="273" parent="249" name="Id">
-      <Position>1</Position>
-      <DataType>int(11)|0</DataType>
-      <NotNull>1</NotNull>
-      <SequenceIdentity>1</SequenceIdentity>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="274" parent="249" name="FirstName">
-      <Position>2</Position>
-      <DataType>varchar(10)|0</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="275" parent="249" name="MiddleName">
-      <Position>3</Position>
-      <DataType>varchar(10)|0</DataType>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="276" parent="249" name="LastName">
-      <Position>4</Position>
-      <DataType>varchar(10)|0</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="277" parent="249" name="Date">
-      <Position>5</Position>
-      <DataType>date|0</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="278" parent="249" name="PintseRecieved">
-      <Position>6</Position>
-      <DataType>int(11)|0</DataType>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="279" parent="249" name="BloodGroup">
-      <Position>7</Position>
-      <DataType>varchar(3)|0</DataType>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <key id="280" parent="249" name="PRIMARY">
-      <NameSurrogate>1</NameSurrogate>
-      <ColNames>Id</ColNames>
-      <Primary>1</Primary>
-    </key>
     <column id="281" parent="250" name="id">
       <Position>1</Position>
       <DataType>int(11)|0</DataType>
@@ -1164,36 +1148,157 @@
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="282" parent="250" name="BloodGroup">
+    <column id="282" parent="250" name="FirstName">
       <Position>2</Position>
-      <DataType>varchar(3)|0</DataType>
+      <DataType>varchar(20)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="283" parent="250" name="Quantity">
+    <column id="283" parent="250" name="MiddleName">
+      <Position>3</Position>
+      <DataType>varchar(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="284" parent="250" name="LastName">
+      <Position>4</Position>
+      <DataType>varchar(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="285" parent="250" name="PhoneNumber">
+      <Position>5</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="286" parent="250" name="Email">
+      <Position>6</Position>
+      <DataType>varchar(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="287" parent="250" name="BloodGroup">
+      <Position>7</Position>
+      <DataType>varchar(25)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="288" parent="250" name="RegistrationDate">
+      <Position>8</Position>
+      <DataType>date|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="289" parent="250" name="elligibilitystatus">
+      <Position>9</Position>
+      <DataType>int(11)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="290" parent="250" name="lastdonationdate">
+      <Position>10</Position>
+      <DataType>date|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="291" parent="250" name="nextdonationdate">
+      <Position>11</Position>
+      <DataType>date|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="292" parent="250" name="unq_donors_elligibilitystatus">
+      <ColNames>elligibilitystatus</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="293" parent="250" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="294" parent="250" name="unq_donors_elligibilitystatus">
+      <ColNames>elligibilitystatus</ColNames>
+      <UnderlyingIndexName>unq_donors_elligibilitystatus</UnderlyingIndexName>
+    </key>
+    <column id="295" parent="251" name="Id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="296" parent="251" name="FirstName">
+      <Position>2</Position>
+      <DataType>varchar(10)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="297" parent="251" name="MiddleName">
+      <Position>3</Position>
+      <DataType>varchar(10)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="298" parent="251" name="LastName">
+      <Position>4</Position>
+      <DataType>varchar(10)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="299" parent="251" name="Date">
+      <Position>5</Position>
+      <DataType>date|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="300" parent="251" name="PintseRecieved">
+      <Position>6</Position>
+      <DataType>int(11)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="301" parent="251" name="BloodGroup">
+      <Position>7</Position>
+      <DataType>varchar(3)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="302" parent="251" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="303" parent="252" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="304" parent="252" name="BloodGroup">
+      <Position>2</Position>
+      <DataType>varchar(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="305" parent="252" name="Quantity">
       <Position>3</Position>
       <DataType>varchar(10)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="284" parent="250" name="PRIMARY">
+    <key id="306" parent="252" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="285" parent="251" name="Username">
+    <column id="307" parent="253" name="Username">
       <Position>1</Position>
       <DataType>varchar(200)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="286" parent="251" name="Password">
+    <column id="308" parent="253" name="Password">
       <Position>2</Position>
       <DataType>varchar(200)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="287" parent="251" name="Role">
+    <column id="309" parent="253" name="Role">
       <Position>3</Position>
       <DataType>varchar(200)|0</DataType>
       <NotNull>1</NotNull>

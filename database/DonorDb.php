@@ -1,7 +1,7 @@
 
 <?php
 
-include ('Db.php');
+include('Db.php');
 $form=$_POST;
 $FirstName=$form['FirstName'];
 $MiddleName=$form['MiddleName'];

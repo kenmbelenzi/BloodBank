@@ -1,5 +1,5 @@
 <html>
-<form name="RequestBlood" action="RequestDb.php" method="POST">
+<form name="RequestBlood" action="database/RequestDb.php" method="POST">
     <div class="Request">
 <!--        <input type="text" name="FirstName" placeholder="First Name">-->
 <!--        <br>-->
