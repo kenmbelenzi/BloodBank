@@ -1,11 +1,11 @@
 <?php
-include ('trial.html')
+include('trial.html')
 ?>
 <!DOCTYPE html>
 
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="../css/main.css">
     <meta charset="UTF-8">
     <title>Blooddbank</title>
 
@@ -13,7 +13,7 @@ include ('trial.html')
 <body>
 <div  class="sidenav" >
     <a onclick=window.location.href='Donate.php'>Blood Donation</a>
-    <a href=" ">Blood Request</a>
+    <a onclick=window.location.href='Request.php>Blood Request</a>
 </div>
 <!--<div class="main">-->
 <!--<P>-->

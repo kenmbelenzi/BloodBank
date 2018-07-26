@@ -37,8 +37,9 @@ if ($result){
     $statement= $db->prepare($query);
 
     $statement->execute([':BloodGroup' => $BloodGroup,':newStock'=>$newStock]);
-    echo 'Update success';
 
+        header( "Location:../src/index.php");
+        echo 'Update success';
     }else{
 
         echo "Failed";

@@ -1,34 +1,36 @@
 <?php
-session_start();
-if (isset( $_POST)) {
-    $user = 'root';
-    $pass = '';
-    $db = new PDO('mysql:host=localhost;dbname=bloodbank', $user, $pass);
+$user = 'root';
+$pass = '';
+$db = new PDO('mysql:host=localhost;dbname=bloodbank', $user, $pass);
 
-    $form = $_POST;
-    $Username = $form['Username'];
+    $form = $_GET;
+
+    $Email = $form['Email'];
     $Password = $form['Password'];
 
 
-    $query = "SELECT Role FROM user WHERE Username = :Username AND Password = :Password";
+    $query = "SELECT Role FROM users WHERE Email = :Email AND Password = :Password";
     $statement= $db->prepare($query);
     $statement->execute(
         array(
-            'Username' => $_POST['Username'],
-            'Password' => $_POST['Password']
+            'Email' => $Email,
+            'Password' => $Password
         )
     );
 
     $count= $statement->rowCount();
     $row=$statement->fetch(PDO::FETCH_ASSOC);
-    if($count == 1) {
+    if($count >0 ) {
         $role=$row['Role'];
         switch ($role){
-            case 'admin':
-                echo "admin";
+            case 'Admin':
+                header( "Location:../src/Admin.php");
+
                 break;
-            case 'nurse':
-                echo 'nurse';
+            case 'Nurse':
+                header( "Location:../src/Index.php");
+
+
                 break;
             case 'donor':
                 echo 'donor';
@@ -60,7 +62,5 @@ if (isset( $_POST)) {
 //}
 else{
         echo "User Does Not Exist";
-}
 
-
-}
+        }

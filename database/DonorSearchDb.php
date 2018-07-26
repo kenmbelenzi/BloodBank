@@ -1,4 +1,7 @@
 <?php
+include('../src/trial.html')
+?>
+<?php
 require('Db.php');
 
 $form=$_GET;
@@ -12,27 +15,38 @@ if($sql->rowCount()) {
         <?php
         while($row = $sql->fetch(PDO::FETCH_ASSOC)) {
             ?>
-<form name="Donation" action="DonationDb.php" method="post">
-               <input type="text" name="id"  value=" <?php print($row['id']); ?>">
+            <html>
+            <head>
+                <link rel="stylesheet" href="../css/main.css">
+                <link rel="stylesheet" href="../css/register.css">
+            </head>
+<div class="main">
+            <form name="Donation" action="DonationDb.php" method="post">
+            <label for="id">Donor Id</label>
+            <input type="text" name="id"  value=" <?php print($row['id']); ?>">
             <br>
-               <input type="text" name="FirstName" value=" <?php print($row['FirstName']); ?>">
+            <label for="FirstName">First Name</label>
+            <input type="text" name="FirstName" value=" <?php print($row['FirstName']); ?>">
 
             <br>
+
+            <label for="LastName">LastName</label>
             <input type="text" name="LastName" value=" <?php print($row['LastName']); ?>">
             <br>
-
+            <label for="BloodGroup">BloodGroup</label>
             <input type="text" name="BloodGroup" value=" <?php print($row['BloodGroup']); ?>">
             <br>
-            <input type="text" name="PintsDonated" placeholder="Pints Donated">
-            <input type="submit">
+            <label for="PintsDonated" STYLE="color: #f44336">Pints Donated</label>
+            <input type="text" name="PintsDonated" placeholder="Pints Donated" style="color: #f44336">
+
             <?php
         }
-        ?>
+    ?>
     <p>Donation Date:
         <input type="text" name="DonationDate" value=" <?php
         $date=date_create();//creates todays date
         echo date_format($date,'y-m-d');?>">//outputs the date in the format D-M-Y
-        <br>
+
     </p>
     <p>Expiry date
         <input type="text" name="ExpiryDate" value="<?php
@@ -44,10 +58,12 @@ if($sql->rowCount()) {
         <br>
     </p>
 
-
-
+    <input type="submit" class="registerbtn">
     <br>
     </form>
+</div>
+
+    </html>
     <?php
 } else {
 

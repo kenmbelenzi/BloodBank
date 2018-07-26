@@ -1,11 +1,12 @@
 <?php
-include ('trial.html')
+include('trial.html')
 ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Donate</title>
+    <
 </head>
 <body>
 
@@ -22,7 +23,7 @@ include ('trial.html')
     <br>
 
 
-    <a href="DonorRegistration.html">
+    <a href="DonorRegistration.php">
         <button>
             New donor
         </button>

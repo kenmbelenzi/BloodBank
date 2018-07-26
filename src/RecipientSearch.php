@@ -1,5 +1,5 @@
 <?php
-include ('trial.html');
+include('trial.html');
 session_start();
 ?>
 <!DOCTYPE html>
@@ -11,7 +11,7 @@ session_start();
 <body>
 
 <div class="main">
-    <form name="DonorSearch" action="database/DonorSearchDb.php" method="get">
+    <form name="RecipientSearch" action="../database/RecipientSearch.php" method="get">
 
         <input type="text"name="id" placeholder="Id">
 
